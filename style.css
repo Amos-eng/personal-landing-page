@@ -139,7 +139,11 @@ body {
         gap: 1rem;
     }
     
-    .nav-menu.active {
+    .nav-links.active {
         display: flex;
     }
+}
+.nav-links a{
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
