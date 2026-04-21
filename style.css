@@ -121,7 +121,6 @@ body {
     background-color: #f4f4f4;
     color: #333;              
 }
-
 @media (max-width: 768px) {
     .hamburger {
         display: block;
@@ -129,6 +128,15 @@ body {
     
     .nav-menu {
         display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 1rem 0;
+        text-align: center;
+        gap: 1rem;
     }
     
     .nav-menu.active {
