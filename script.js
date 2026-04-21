@@ -1,4 +1,4 @@
-document.querySelectorAll('nav a').forEach(link => {
+document.querySelectorAll('.navbar a').forEach(link => {
     link.addEventListener('click', function(e) {
         e.preventDefault();
         const targetId = this.getAttribute('href');
